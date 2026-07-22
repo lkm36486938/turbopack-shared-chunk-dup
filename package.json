@@ -1,0 +1,22 @@
+{
+  "name": "turbopack-shared-chunk-dup",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "build:webpack": "next build --webpack",
+    "start": "next start",
+    "dev": "next dev",
+    "measure": "node scripts/measure.mjs"
+  },
+  "dependencies": {
+    "next": "16.2.10",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.0",
+    "@types/react": "19.1.0",
+    "typescript": "5.8.3"
+  }
+}

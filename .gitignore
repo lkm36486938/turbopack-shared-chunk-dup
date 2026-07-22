@@ -1,0 +1,12 @@
+node_modules
+.next
+next-env.d.ts
+*.tsbuildinfo
+.DS_Store
+
+# npm-only repro; ignore any stray pnpm files
+pnpm-lock.yaml
+pnpm-workspace.yaml
+
+# local build-output comparison (regenerable; not part of the repro source)
+build-comparison/
